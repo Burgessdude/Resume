@@ -338,7 +338,7 @@ header h1 {
 
 /* --------------------------- NAVIGATION STUFF GOES HERE --------------------------- */
 #navWrapper {
-  background-color: rgb(75, 150, 211);
+  background-color: rgb(184, 218, 246);
   position: sticky;
   top: 0;
 }
@@ -353,13 +353,13 @@ nav ul li {
   flex: 1;
 }
 nav ul li:hover {
-  background-color: #74aedd;
+  background-color: #e5f2fc;
 }
 nav ul li.active {
-  background-color: #2e7dbd;
+  background-color: #8bc2f0;
 }
 nav ul li.active:hover {
-  background-color: #74aedd;
+  background-color: #e5f2fc;
 }
 nav ul a {
   display: block;
