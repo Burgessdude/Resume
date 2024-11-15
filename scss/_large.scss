@@ -1,0 +1,51 @@
+body {
+    display: grid;
+    grid-template-columns: 250px auto;
+
+}
+#navWrapper {
+    grid-row: 1 / span 3;
+    position: relative;
+}
+nav ul{
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    position: fixed;
+    li {
+        flex: none;
+    }
+}
+
+header {
+    span{
+        font-size: 2rem;
+    }
+}
+
+main {
+    h2 {
+        padding: 1rem $gutter.5rem $gutter;
+        font-size: 1.5rem;
+        color: $secondaryColor;
+        font-weight: $lightWeight;
+    }
+    p {
+        padding: .5rem $gutter;
+        color: #333;
+        line-height: $leading;
+        font-size: 1.2rem;
+    }
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 700px;
+        height: 400px;
+    }
+    h1 {
+        padding: 4rem $gutter 1rem $gutter;        
+        font-size: 3rem;
+        color: $secondaryColor;
+        font-weight: $lightWeight;
+    }
+}// end main

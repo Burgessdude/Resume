@@ -1,0 +1,42 @@
+/* NAVIGATION STUFF GOES HERE  */
+nav{
+    ul{
+        a{
+            img {display: none;}
+            span {display: block;}           
+        }
+    }
+}
+
+header {
+    span{
+        font-size: 1.5rem;
+    }
+}
+
+main {
+    h2 {
+        padding: 1rem $gutter.5rem $gutter;
+        font-size: 1.5rem;
+        color: $secondaryColor;
+        font-weight: $lightWeight;
+    }
+    p {
+        padding: .5rem $gutter;
+        color: #333;
+        line-height: $leading;
+        font-size: 1.3rem;
+    }
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 450px;
+        height: auto;
+    }
+    h1 {
+        padding: 5rem $gutter 1rem $gutter;
+        font-size: 3rem;
+        color: $secondaryColor;
+        font-weight: $lightWeight;
+    }
+}// end main
